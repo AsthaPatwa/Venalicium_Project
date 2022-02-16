@@ -1,12 +1,15 @@
 import { CardContent, Paper, Typography } from "@mui/material";
 import React, { useState } from "react";
+import image15 from "../asset/image15.png";
+import image16 from "../asset/image16.png";
+import image17 from "../asset/image17.png";
 
 const card1 = (
   <React.Fragment>
-    <CardContent>
-      <img src="../asset/image15.png" />
-      <Typography className="text" variant="h5">
-        Search Engine Marketing
+    <CardContent >
+      <img src={image15} alt="img" style={{width:"25%" , marginBottom: "5%"}}/>
+      <Typography className="text" variant="h5" fontWeight={700}>
+        Search Engine Marketing 
       </Typography>
       <Typography className="text" variant="h6" component="div">
         Let us put your website in front of consumers at the moment in time they
@@ -18,8 +21,8 @@ const card1 = (
 const card2 = (
   <React.Fragment>
     <CardContent>
-      <img src="../asset/image16.png" />
-      <Typography className="text" variant="h5">
+      <img src={image16}  alt="img" style={{width:"25%"  , marginBottom: "5%"}}/>
+      <Typography className="text" variant="h5" fontWeight={700}>
         Search Engine Optimization
       </Typography>
       <Typography className="text" variant="h6" component="div">
@@ -32,8 +35,8 @@ const card2 = (
 const card3 = (
   <React.Fragment>
     <CardContent>
-      <img src="../asset/image17.png" />
-      <Typography className="text" variant="h5">
+      <img src={image17} alt="img" style={{width:"25%"  , marginBottom: "5%"}}/>
+      <Typography className="text" variant="h5" fontWeight={700}>
         Reporting Analysis ROI
       </Typography>
       <Typography className="text" variant="h6" component="div">
@@ -48,7 +51,7 @@ const Page2 = () => {
   return (
     <div
       style={{
-        height: "326px",
+        // height: "326px",
         justifyContent: "center",
         textAlign: "center",
       }}
@@ -58,8 +61,6 @@ const Page2 = () => {
           display: "flex",
           justifyContent: "space-evenly",
           marginTop: "55px",
-          marginRight: "15px",
-          marginLeft: "15px",
         }}
       >
         <div onClick={() => setactive(1)} style={{ cursor: "pointer" }}>

@@ -1,5 +1,6 @@
 import { Button, CardContent, Paper, Typography } from "@mui/material";
 import React from "react";
+import image14 from "../asset/image14.png" ;
 
 const card = (
   <React.Fragment>
@@ -47,14 +48,14 @@ const Page1 = () => {
     <Paper elevation={0}>
       <div
         style={{
-          height: "400px",
           backgroundColor: "blueviolet",
           display: "flex",
+          height : "572px"
         }}
       >
-        <div style={{ width: "60%" }}>{card}</div>
-        <div style={{ width: "40%" }}>
-          <img alt="image" src="../asset/image14.png" />
+        <div>{card}</div>
+        <div >
+          <img src= {image14} alt="image" />
         </div>
       </div>
     </Paper>

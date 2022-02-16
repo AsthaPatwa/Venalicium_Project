@@ -1,9 +1,10 @@
 import { Paper, Typography } from "@mui/material";
 import React from "react";
+import image19 from "../asset/image19.png";
 
 const Page4 = () => {
   return (
-    <Paper elevation={0} style={{ height: "500px" }}>
+    <Paper elevation={0} >
       <Typography
         className="text"
         variant="h4"
@@ -32,7 +33,7 @@ const Page4 = () => {
       </Typography>
       <div>
         <div style={{ width: "50%" }}>
-          <img alt="image" src="../asset/image19.png" />
+          <img alt="image" src={image19} style={{width:"80%"}}/>
         </div>
         <div style={{ width: "50%" }}></div>
       </div>
