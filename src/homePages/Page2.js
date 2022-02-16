@@ -73,8 +73,6 @@ const Page2 = () => {
           display: "flex",
           justifyContent: "space-evenly",
           marginTop: "55px",
-          marginRight: "15px",
-          marginLeft: "15px",
         }}
       >
         <div

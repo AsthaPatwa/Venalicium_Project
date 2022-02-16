@@ -49,6 +49,7 @@ const card = (
           height: "35px",
           width: "95px",
           border: "2px none red",
+          cursor: "pointer",
         }}
       >
         View Case
@@ -79,6 +80,7 @@ const Page5 = () => {
           marginTop: "12px",
           color: "#000000",
           textAlign: "center",
+          marginBottom: "10%",
         }}
       >
         Selected projects

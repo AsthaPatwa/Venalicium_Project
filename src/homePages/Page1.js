@@ -53,7 +53,6 @@ const Page1 = () => {
     <Paper elevation={0}>
       <div
         style={{
-          height: "400px",
           backgroundColor: "blueviolet",
           display: "flex",
           height: "572px",

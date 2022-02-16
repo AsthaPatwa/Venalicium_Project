@@ -45,6 +45,7 @@ const card = (
           height: "35px",
           width: "107px",
           border: "2px none red",
+          cursor: "pointer",
         }}
       >
         Explor More

@@ -87,7 +87,7 @@ const Cpage2 = () => {
             <h3
               className="text"
               style={{
-                marginTop: "209px",
+                marginTop: "18px",
                 fontWeight: "bold",
               }}
             >
