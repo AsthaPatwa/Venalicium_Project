@@ -1,0 +1,14 @@
+.send{
+    height: 500px;
+    background-image: url("../asset/problem-bg.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.imag{
+    
+     background-image: url("../asset/pages-banner-8.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: right;
+}

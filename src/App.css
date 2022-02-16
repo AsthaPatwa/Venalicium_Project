@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.text {
+.text, button {
   font-family: "Poppins";
   font-style: "normal";
   font-weight: "500";
@@ -33,7 +33,7 @@ mark{
 }
 
 .explor{
-    height: 500px;
+    height: 650px;
     width: 100%;
     background-image: url("./asset/image23.png");
     background-size: cover;

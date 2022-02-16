@@ -1,5 +1,6 @@
 import { Button, CardContent, Paper, Typography } from "@mui/material";
 import React from "react";
+import image14 from "../asset/image14.png";
 
 const card = (
   <React.Fragment>
@@ -9,7 +10,7 @@ const card = (
         variant="h2"
         style={{
           marginTop: "2px",
-          marginLeft: "72px",
+          marginLeft: "90px",
           fontWeight: "bold",
           color: "#FFFFFF",
           justifyContent: "center",
@@ -21,24 +22,29 @@ const card = (
         className="text"
         variant="h6"
         style={{
-          marginTop: "8px",
-          marginLeft: "72px",
+          marginTop: "11px",
+          marginLeft: "90px",
           color: "#FFFFFF",
         }}
       >
         How can we help you become your company's marketing hero?
       </Typography>
-      <Button
+      <button
+        className="text"
         style={{
           background: "red",
-          marginTop: "22px",
-          marginLeft: "72px",
+          marginTop: "26px",
+          marginLeft: "90px",
           color: "#FFFFFF",
           borderRadius: "33.5px",
+          border: "2px none red",
+          cursor: "pointer",
+          height: "45px",
+          width: "130px",
         }}
       >
         Digital Marketing
-      </Button>
+      </button>
     </CardContent>
   </React.Fragment>
 );
@@ -50,11 +56,16 @@ const Page1 = () => {
           height: "400px",
           backgroundColor: "blueviolet",
           display: "flex",
+          height: "572px",
         }}
       >
         <div style={{ width: "60%" }}>{card}</div>
-        <div style={{ width: "40%" }}>
-          <img alt="image" src="../asset/image14.png" />
+        <div style={{ marginTop: "25px", width: "40%" }}>
+          <img
+            src={image14}
+            alt="image"
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
       </div>
     </Paper>

@@ -1,13 +1,14 @@
 import { Button, CardContent, Paper, Typography } from "@mui/material";
 import React from "react";
+import image20 from "../asset/image20.png";
 
 const card = (
   <React.Fragment>
     <CardContent>
-      <Typography
+      <h2
         className="text"
-        variant="h3"
         style={{
+          fontSize: "29px",
           fontWeight: "bold",
           marginTop: "15px",
           color: "#000000",
@@ -15,18 +16,17 @@ const card = (
       >
         Conversion Rate <br />
         Optimization
-      </Typography>
-      <Typography
+      </h2>
+      <p
         className="text"
-        variant="h5"
         style={{
           marginTop: "17px",
           color: "grey",
         }}
       >
         Making sure your visitors convert
-      </Typography>
-      <Typography
+      </p>
+      <p
         className="text"
         variant="h6"
         style={{
@@ -37,19 +37,22 @@ const card = (
       >
         Getting customers to your site is only part of thr battle. Once there,
         you have <br /> to make sure they buy, sign up or otherwise engage with
-        you brand to drive revenue. Conversion rate Optimization(CRO)
-      </Typography>
-      <Button
+        you brand to drive <br /> revenue. Conversion rate Optimization(CRO)
+      </p>
+      <button
         style={{
           background: "red",
           marginTop: "22px",
           color: "#FFFFFF",
           borderRadius: "33.5px",
           textAlign: "center",
+          height: "35px",
+          width: "95px",
+          border: "2px none red",
         }}
       >
         View Case
-      </Button>
+      </button>
     </CardContent>
   </React.Fragment>
 );
@@ -57,9 +60,8 @@ const card = (
 const Page5 = () => {
   return (
     <Paper elevation={0} className="case" style={{ height: "500px" }}>
-      <Typography
+      <p
         className="text"
-        variant="h6"
         style={{
           fontSize: "15px",
           marginTop: "25px",
@@ -69,10 +71,9 @@ const Page5 = () => {
         }}
       >
         <u>View Case</u>
-      </Typography>
-      <Typography
+      </p>
+      <h1
         className="text"
-        variant="h4"
         style={{
           fontWeight: "bold",
           marginTop: "12px",
@@ -81,10 +82,14 @@ const Page5 = () => {
         }}
       >
         Selected projects
-      </Typography>
+      </h1>
       <div style={{ width: "100%", display: "flex" }}>
         <div style={{ width: "50%" }}>
-          <img alt="image" src="../asset/image20.png" />
+          <img
+            alt="image"
+            src={image20}
+            style={{ width: "75%", marginLeft: "90px" }}
+          />
         </div>
         <div style={{ width: "50%" }}> {card}</div>
       </div>
