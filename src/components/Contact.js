@@ -9,6 +9,7 @@ const Contact = () => {
       <Cpage1 />
       <Cpage2 />
       <Cpage3 />
+      <Footer />
     </div>
   );
 };

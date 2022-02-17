@@ -5,6 +5,7 @@ import Page3 from "../homePages/Page3";
 import Page4 from "../homePages/Page4";
 import Page5 from "../homePages/Page5";
 import Page6 from "../homePages/Page6";
+import Footer from "../components/Footer"
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Page4 />
       <Page5 />
       <Page6 />
+      <Footer />
     </div>
   );
 };
