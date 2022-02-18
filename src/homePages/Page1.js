@@ -1,16 +1,18 @@
-import { CardContent, Paper, Typography } from "@mui/material";
+import { Button, CardContent, Paper, Typography } from "@mui/material";
+import { fontFamily } from "@mui/system";
 import React from "react";
 import image14 from "../asset/image14.png";
-import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
 
 const card = (
   <React.Fragment>
     <CardContent>
       <Typography
-        variant="h2"
+        className="text"
+        variant="h1"
         style={{
-          marginTop: "2px",
-          marginLeft: "90px",
+          fontSize: "85px",
+          marginTop: "1px",
+          marginLeft: "50px",
           fontWeight: "bold",
           color: "#FFFFFF",
           justifyContent: "center",
@@ -19,65 +21,52 @@ const card = (
         Digital marketing & search agency
       </Typography>
       <Typography
+        className="text"
         variant="h6"
         style={{
-          marginTop: "11px",
-          marginLeft: "90px",
+          fontSize: "23px",
+          marginTop: "23px",
+          marginLeft: "50px",
           color: "#FFFFFF",
         }}
       >
         How can we help you become your company's marketing hero?
       </Typography>
       <button
+        className="text"
         style={{
-          fontSize: "18px",
-          background: "red",
-          marginTop: "26px",
-          marginLeft: "90px",
+          background: "Tomato",
+          marginTop: "49px",
+          marginLeft: "50px",
           color: "#FFFFFF",
-          borderRadius: "33.5px",
+          borderRadius: "22px",
           border: "2px none red",
           cursor: "pointer",
-          height: "45px",
-          width: "186px",
+          height: "74px",
+          width: "255px",
         }}
       >
-        Digital Marketing
+       <h1 > Digital Marketing</h1>
       </button>
-      <CircleOutlinedIcon
-        style={{
-          color: "#FFFFFF",
-          marginBottom: "-158px",
-          marginLeft: "-55px",
-          width: "13px",
-        }}
-      />
     </CardContent>
   </React.Fragment>
 );
 const Page1 = () => {
   return (
-    <Paper elevation={6}>
+    <Paper elevation={0}>
       <div
         style={{
-          backgroundColor: "rgb(119, 77, 219)",
-
+          backgroundColor: "#7378F1",
           display: "flex",
-          height: "525px",
+          height: "572px",
         }}
       >
         <div style={{ width: "60%" }}>{card}</div>
-        <div>
-          <img
-            style={{ width: "680px" }}
+        <div >
+          <img style={{  width: "680px" }}
             src={image14}
             alt="image"
-            style={{
-              marginTop: "43px",
-              marginLeft: "-62px",
-              width: "110%",
-              height: "98%",
-            }}
+            style={{ marginTop: "43px",  marginLeft: "-28px", width: "110%", height: "98%" }}
           />
         </div>
       </div>
