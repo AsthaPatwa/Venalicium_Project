@@ -61,16 +61,23 @@ const Page1 = () => {
       <div
         style={{
           backgroundColor: "rgb(119, 77, 219)",
+
           display: "flex",
           height: "525px",
         }}
       >
         <div style={{ width: "60%" }}>{card}</div>
-        <div style={{ marginTop: "25px", width: "40%" }}>
+        <div>
           <img
+            style={{ width: "680px" }}
             src={image14}
             alt="image"
-            style={{ width: "100%", height: "100%" }}
+            style={{
+              marginTop: "43px",
+              marginLeft: "-62px",
+              width: "110%",
+              height: "98%",
+            }}
           />
         </div>
       </div>

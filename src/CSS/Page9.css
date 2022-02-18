@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    border: 1px solid rgb(206, 203, 203);
+}
+
+.send-btn button{
+    color: white;
+    margin: 5% 0;
+    padding: 3% 8%;
+    border: none;
+    border-radius: 31px;
+    background-color: rgb(254 69 69);
+}
