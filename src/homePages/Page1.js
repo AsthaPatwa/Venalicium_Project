@@ -66,7 +66,7 @@ const Page1 = () => {
           <img style={{  width: "680px" }}
             src={image14}
             alt="image"
-            style={{ marginTop: "43px",  marginLeft: "-28px", width: "110%", height: "98%" }}
+            style={{ marginTop: "43px",  marginLeft: "-62px", width: "110%", height: "98%" }}
           />
         </div>
       </div>
