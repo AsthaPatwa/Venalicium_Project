@@ -1,4 +1,4 @@
-import {  CardContent, Paper, Typography } from "@mui/material";
+import { CardContent, Paper, Typography } from "@mui/material";
 import React from "react";
 import image20 from "../asset/image20.png";
 import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
@@ -63,31 +63,6 @@ const card = (
 const Page5 = () => {
   return (
     <Paper elevation={0} className="case" style={{ height: "650px" }}>
-<<<<<<< HEAD
-      <Typography
-        style={{
-          fontSize: "15px",
-          marginTop: "28px",
-          color: "#6141ab",
-          justifyContent: "center",
-          textAlign: "center",
-        }}
-      >
-        <u>View Case</u>
-      </Typography>
-      <Typography
-        variant="h3"
-        style={{
-          fontWeight: "bold",
-          marginTop: "18px",
-          color: "#000000",
-          textAlign: "center",
-          marginBottom: "10%",
-        }}
-      >
-        Selected projects
-      </Typography>
-=======
       <div style={{ textAlign: "center" }}>
         <a
           href="#"
@@ -114,7 +89,6 @@ const Page5 = () => {
         </Typography>
       </div>
 
->>>>>>> b5a2db7d67b99d61d5c9f29e1926db6057c0a485
       <div style={{ width: "100%", display: "flex" }}>
         <div style={{ width: "50%" }}>
           <img

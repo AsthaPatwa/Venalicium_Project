@@ -9,14 +9,8 @@ import "../CSS/Home.css";
 const card = (
   <React.Fragment>
     <CardContent>
-<<<<<<< HEAD
-      <div style={{marginLeft: "-300px"}}>
-      <Typography
-        variant="h5"
-=======
       <a
         href="#"
->>>>>>> b5a2db7d67b99d61d5c9f29e1926db6057c0a485
         style={{
           fontWeight: "12px",
           marginTop: "16px",
@@ -29,7 +23,7 @@ const card = (
       <Typography
         variant="h3"
         style={{
-          fontSize: "62px",
+          fontSize: "42px",
           fontWeight: "bold",
           marginLeft: "155px",
           marginTop: "17px",
@@ -56,23 +50,16 @@ const card = (
       >
         Explor More
       </button>
-      </div>
     </CardContent>
   </React.Fragment>
 );
 
 const Page6 = () => {
   return (
-    <div style={{marginLeft: "220px"}}>
     <Paper elevation={0} className="explor">
       <div style={{ display: "flex" }}>
-<<<<<<< HEAD
-        <div style={{ width: "100%" }}>{card}</div>
-        <div style={{ width: "100%" }}>
-=======
         <div style={{ width: "40%", marginTop: "302px" }}>{card}</div>
         <div style={{ width: "60%" }}>
->>>>>>> b5a2db7d67b99d61d5c9f29e1926db6057c0a485
           <Paper
             elevation={4}
             style={{
@@ -224,7 +211,6 @@ const Page6 = () => {
         </div>
       </div>
     </Paper>
-    </div>
   );
 };
 
