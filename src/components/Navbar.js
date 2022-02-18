@@ -15,7 +15,7 @@ const Navbar = () => {
               alignItems: "center",
             }}
           >
-            <img src={image12} alt="image" style={{ width: "20%" }} />
+            <img src={image12} alt="image" style={{ width: "110px", height: "112px",  marginLeft: "40px",marginBottom: "-15px", marginTop: "-10px" }} />
             <Link to="/">
               <button
                 className="text"
@@ -26,14 +26,14 @@ const Navbar = () => {
                   display: "contents",
                 }}
               >
-                Home
+                Home 
               </button>
             </Link>
             <button
               className="text"
               style={{
                 color: "#000000",
-                textAlign: "center",
+                marginLeft: "-30px",
                 cursor: "pointer",
                 display: "contents",
               }}
@@ -47,32 +47,27 @@ const Navbar = () => {
                 textAlign: "center",
                 cursor: "pointer",
                 display: "contents",
-              }}
-            >
-              About
-            </button>
-            <button
-              className="text"
-              style={{
-                color: "#000000",
-                textAlign: "center",
-                cursor: "pointer",
-                display: "contents",
+                marginLeft: "10%",
               }}
             >
               Services
             </button>
-            <button
+            <Link to="/campaign"></Link>
+            <p
               className="text"
               style={{
-                color: "#000000",
+                background: "yellow",
+                color: "red",
                 textAlign: "center",
                 cursor: "pointer",
                 display: "contents",
+                marginLeft: "4px",
+                marginBottom: "40px",
+                fontSize: "15px"
               }}
             >
               Campaign
-            </button>
+              </p>
             <Link to="/contact">
               <button
                 className="text"
@@ -83,9 +78,13 @@ const Navbar = () => {
                   textAlign: "center",
                   cursor: "pointer",
                   border: "2px none #7378F1",
+                  marginLeft: "819px",
+                  width: "200px",
+                  height: "53px",
+                  marginTop: "0px",
                 }}
               >
-                Contact Us
+                <h1>Contact Us</h1>
               </button>
             </Link>
           </div>

@@ -1,42 +1,30 @@
 import { Paper, Typography } from "@mui/material";
 import React from "react";
 import effect2 from "../asset/effect-2.png";
-import image from "../asset/pages-banner-8.png";
+import picture from "../asset/pages-banner-8.png";
 
 const Cpage1 = () => {
   return (
     <Paper elevation={0}>
-      <div style={{ height: "500px", display: "flex", width: "100%" }}>
-        <div>
+      <div style={{ height: "873.33px", display: "flex", width: "100%" }}>
+        <div style={{display: "flex"}}>
           <img
             src={effect2}
-            alt="image"
-            style={{ marginLeft: "53px", marginTop: "51px" }}
+            alt="reload"
+            style={{ marginLeft: "123px", marginTop: "61px", width: "330px", height: "400px" }}
+          />
+       
+          <img
+            src={picture}
+            alt="reload"
+            style={{ marginLeft: "570px", marginTop: "61px", width: "495px", height: "400px"}}
           />
         </div>
-        <div
-          className="imag"
-          style={{
-            marginTop: "122px",
-            textAlign: "center",
-            color: "#000000",
-          }}
-        >
-          <p className="text" style={{ fontWeight: "bold" }}>
-            Contact us
-          </p>
-          <h2
-            className="text"
-            style={{
-              fontWeight: "bold",
-              fontSize: "45px",
-              marginTop: "17px",
-            }}
-          >
-            Let's talk <br /> How can we help?
-          </h2>
-        </div>
-      </div>
+        <div style={{marginLeft: "-815px"}}>
+        <h4 >Contact us</h4>
+        <p><h1>Let's Talk</h1>
+        <h1>How can we help?</h1></p></div>
+             </div>
     </Paper>
   );
 };

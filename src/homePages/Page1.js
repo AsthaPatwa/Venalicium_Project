@@ -1,4 +1,5 @@
 import { Button, CardContent, Paper, Typography } from "@mui/material";
+import { fontFamily } from "@mui/system";
 import React from "react";
 import image14 from "../asset/image14.png";
 
@@ -7,10 +8,11 @@ const card = (
     <CardContent>
       <Typography
         className="text"
-        variant="h2"
+        variant="h1"
         style={{
-          marginTop: "2px",
-          marginLeft: "90px",
+          fontSize: "85px",
+          marginTop: "1px",
+          marginLeft: "50px",
           fontWeight: "bold",
           color: "#FFFFFF",
           justifyContent: "center",
@@ -22,8 +24,9 @@ const card = (
         className="text"
         variant="h6"
         style={{
-          marginTop: "11px",
-          marginLeft: "90px",
+          fontSize: "23px",
+          marginTop: "23px",
+          marginLeft: "50px",
           color: "#FFFFFF",
         }}
       >
@@ -32,18 +35,18 @@ const card = (
       <button
         className="text"
         style={{
-          background: "red",
-          marginTop: "26px",
-          marginLeft: "90px",
+          background: "Tomato",
+          marginTop: "49px",
+          marginLeft: "50px",
           color: "#FFFFFF",
-          borderRadius: "33.5px",
+          borderRadius: "22px",
           border: "2px none red",
           cursor: "pointer",
-          height: "45px",
-          width: "130px",
+          height: "74px",
+          width: "255px",
         }}
       >
-        Digital Marketing
+       <h1 > Digital Marketing</h1>
       </button>
     </CardContent>
   </React.Fragment>
@@ -53,17 +56,17 @@ const Page1 = () => {
     <Paper elevation={0}>
       <div
         style={{
-          backgroundColor: "blueviolet",
+          backgroundColor: "#7378F1",
           display: "flex",
           height: "572px",
         }}
       >
         <div style={{ width: "60%" }}>{card}</div>
-        <div style={{ marginTop: "25px", width: "40%" }}>
-          <img
+        <div >
+          <img style={{  width: "680px" }}
             src={image14}
             alt="image"
-            style={{ width: "100%", height: "100%" }}
+            style={{ marginTop: "43px",  marginLeft: "-28px", width: "110%", height: "98%" }}
           />
         </div>
       </div>
