@@ -12,35 +12,6 @@ button {
   line-height: "43px";
 }
 
-.check{
-  height: 600px;
-  width: 100%;
-background-image: url("./asset/image21.png");
-background-size: cover;
-background-repeat: no-repeat;
-}
-
-mark{
-  color:red;
-  background-color: white;
-}
-
-.case{
-   height: 600px;
-   width: 100%;
-   background-image: url("./asset/image22.png");
-   background-size: cover;
-   background-repeat: no-repeat;
-}
-
-.explor{
-    height: 650px;
-    width: 100%;
-    background-image: url("./asset/image23.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .nav{
   height: 72px;
   display: flex;
@@ -53,7 +24,7 @@ mark{
 
 .navbutton{
   flex: 1;
-  text-align: center;
+  text-align: right;
 }
 .navbutton ul li{
   list-style: none;
@@ -64,7 +35,7 @@ mark{
 .navbutton ul li button{
   color: #000000;
   background-color: #ffffff;
-  font-size: 20px;
+  font-size: 23px;
   outline: none;
   border:none;
   text-align: center;

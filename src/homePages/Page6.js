@@ -1,25 +1,31 @@
-import { Button, CardContent, Paper, Typography } from "@mui/material";
+import { CardContent, Paper, Typography } from "@mui/material";
 import React from "react";
 import image1 from "../asset/Mask_Group.png";
 import image2 from "../asset/Mask_Group1.png";
 import image3 from "../asset/Mask_Group2.png";
 import image4 from "../asset/Mask_Group3.png";
+import "../CSS/Home.css";
 
 const card = (
   <React.Fragment>
     <CardContent>
+<<<<<<< HEAD
       <div style={{marginLeft: "-300px"}}>
       <Typography
         variant="h5"
+=======
+      <a
+        href="#"
+>>>>>>> b5a2db7d67b99d61d5c9f29e1926db6057c0a485
         style={{
           fontWeight: "12px",
-          marginTop: "326px",
+          marginTop: "16px",
           marginLeft: "155px",
           color: "#a058e8",
         }}
       >
-        <u> What we do</u>
-      </Typography>
+        What we do
+      </a>
       <Typography
         variant="h3"
         style={{
@@ -54,13 +60,19 @@ const card = (
     </CardContent>
   </React.Fragment>
 );
+
 const Page6 = () => {
   return (
     <div style={{marginLeft: "220px"}}>
     <Paper elevation={0} className="explor">
       <div style={{ display: "flex" }}>
+<<<<<<< HEAD
         <div style={{ width: "100%" }}>{card}</div>
         <div style={{ width: "100%" }}>
+=======
+        <div style={{ width: "40%", marginTop: "302px" }}>{card}</div>
+        <div style={{ width: "60%" }}>
+>>>>>>> b5a2db7d67b99d61d5c9f29e1926db6057c0a485
           <Paper
             elevation={4}
             style={{

@@ -2,6 +2,7 @@ import { Paper, Typography } from "@mui/material";
 import React from "react";
 import image19 from "../asset/image19.png";
 import pic44 from "../asset/pic44.png";
+import "../CSS/Home.css";
 
 const Page4 = () => {
   return (

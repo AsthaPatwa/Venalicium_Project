@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import image15 from "../asset/image15.png";
 import image16 from "../asset/image16.png";
 import image17 from "../asset/image17.png";
+import "../CSS/Home.css";
 
 const card1 = (
   <React.Fragment>

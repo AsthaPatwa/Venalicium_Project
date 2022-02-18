@@ -1,4 +1,4 @@
-import { AppBar, Box, Paper, Toolbar } from "@mui/material";
+import { Paper } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
 import image12 from "../asset/image12.png";
@@ -32,14 +32,15 @@ const Navbar = () => {
               <Link to="/contact">
                 <button
                   style={{
-                    height: "35px",
-                    width: "127px",
+                    height: "45px",
+                    width: "166px",
                     background: "#7378F1",
                     borderRadius: "33.5px",
                     color: "#FFFFFF",
                     textAlign: "center",
                     cursor: "pointer",
                     border: "2px none #7378F1",
+                    marginRight: "105px",
                   }}
                 >
                   Contact Us

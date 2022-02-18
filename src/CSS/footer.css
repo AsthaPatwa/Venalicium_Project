@@ -51,12 +51,29 @@
 form{
     margin-top: 5%;
 }
+.email{
+    display: flex;
+width: 85%;
+height: 55px;
+ background-color: rgb(218, 212, 212);
+  border: 2px solid rgb(218, 212, 212);
+}
+.name{
+       margin-top: 3%;
+    display: flex;
+    width: 85%;
+    height: 55px;
+    background-color: rgb(218, 212, 212);
+      border: 2px solid rgb(218, 212, 212);
+}
 .form input{
+    width: 75%;
     background-color: rgb(218, 212, 212);
     color: grey;
-    margin: 1% 0;
-    width: 80%;
+    margin: 1% 1%0;
     padding: 5% 3%;
+    outline: none;
+    border: none;
 }
 
 .submit-btn{

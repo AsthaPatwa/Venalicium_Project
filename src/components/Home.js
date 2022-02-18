@@ -8,7 +8,7 @@ import Page6 from "../homePages/Page6";
 import Page7 from "../homePages/Page7";
 import Page9 from "../homePages/Page9";
 import Page8 from "../homePages/Page8";
-import Footer from "../components/Footer"
+import "../CSS/Home.css";
 
 
 const Home = () => {
