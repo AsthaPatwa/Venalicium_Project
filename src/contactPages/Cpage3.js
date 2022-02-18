@@ -14,11 +14,11 @@ const card1 = (
       />
       <Typography
         variant="h5"
-        style={{ fontWeight: "bold", textAlign: "center" }}
+        style={{ fontWeight: "bold", textAlign: "center", marginTop: "15px" }}
       >
         Email address
       </Typography>
-      <Typography style={{ textAlign: "center" }}>
+      <Typography style={{ textAlign: "center", marginTop: "18px" }}>
         rstu@yoursite.com <br /> hrip24@rstu.com
       </Typography>
     </CardContent>
@@ -35,11 +35,13 @@ const card2 = (
       />
       <Typography
         variant="h5"
-        style={{ fontWeight: "bold", textAlign: "center" }}
+        style={{ fontWeight: "bold", textAlign: "center", marginTop: "15px" }}
       >
         office Location
       </Typography>
-      <Typography style={{ textAlign: "center", fontSize: "15px" }}>
+      <Typography
+        style={{ textAlign: "center", fontSize: "15px", marginTop: "18px" }}
+      >
         62 Arlington St. Suite 100 Boston, CA 01117, USA
       </Typography>
     </CardContent>
@@ -55,7 +57,7 @@ const Cpage3 = () => {
             height: "300px",
             marginTop: "95px",
             marginLeft: "148px",
-            width: "190px",
+            width: "205px",
           }}
         >
           {card1}
@@ -66,7 +68,7 @@ const Cpage3 = () => {
             height: "300px",
             marginTop: "95px",
             marginLeft: "35px",
-            width: "190px",
+            width: "205px",
           }}
         >
           {card2}

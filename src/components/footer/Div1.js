@@ -3,6 +3,8 @@ import React from "react";
 import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import EmailIcon from "@mui/icons-material/Email";
+import PersonIcon from "@mui/icons-material/Person";
 
 const Div1 = () => {
   return (
@@ -22,9 +24,33 @@ const Div1 = () => {
 
         <div className="form">
           <form>
-            <input type="text" placeholder="Email"></input>
-            <input type="text" placeholder="Your Name"></input>
-            <input type="text" placeholder="Company Name"></input>
+            <div className="email">
+              <EmailIcon
+                style={{
+                  marginTop: "12px",
+                  marginLeft: "9px",
+                }}
+              />
+              <input type="text" placeholder="Email"></input>
+            </div>
+            <div className="name">
+              <PersonIcon
+                style={{
+                  marginTop: "12px",
+                  marginLeft: "9px",
+                }}
+              />
+              <input type="text" placeholder="Your Name"></input>
+            </div>
+            <div className="name">
+              <PersonIcon
+                style={{
+                  marginTop: "12px",
+                  marginLeft: "9px",
+                }}
+              />
+              <input type="text" placeholder="Company Name"></input>
+            </div>
           </form>
         </div>
         <div className="submit-btn">

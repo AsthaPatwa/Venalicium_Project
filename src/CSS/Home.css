@@ -1,0 +1,35 @@
+.check {
+    height: 600px;
+    width: 100%;
+    background-image: url("../asset/image21.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+mark {
+    color: red;
+    background-color: white;
+}
+
+.case {
+    height: 600px;
+    width: 100%;
+    background-image: url("../asset/image22.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.explor {
+    height: 900px;
+    width: 100%;
+    background-image: url("../asset/image23.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4% 4%;
+}

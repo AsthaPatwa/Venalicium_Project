@@ -2,6 +2,7 @@ import { Button, CardContent, Paper, Typography } from "@mui/material";
 import React from "react";
 import image20 from "../asset/image20.png";
 import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
+import "../CSS/Home.css";
 
 const card = (
   <React.Fragment>
@@ -62,29 +63,32 @@ const card = (
 const Page5 = () => {
   return (
     <Paper elevation={0} className="case" style={{ height: "650px" }}>
-      <Typography
-        style={{
-          fontSize: "15px",
-          marginTop: "25px",
-          color: "#6141ab",
-          justifyContent: "center",
-          textAlign: "center",
-        }}
-      >
-        <u>View Case</u>
-      </Typography>
-      <Typography
-        variant="h3"
-        style={{
-          fontWeight: "bold",
-          marginTop: "12px",
-          color: "#000000",
-          textAlign: "center",
-          marginBottom: "10%",
-        }}
-      >
-        Selected projects
-      </Typography>
+      <div style={{ textAlign: "center" }}>
+        <a
+          href="#"
+          style={{
+            textAlign: "center",
+            fontSize: "15px",
+            marginTop: "25px",
+            color: "#a058e8",
+          }}
+        >
+          View Case
+        </a>
+        <Typography
+          variant="h3"
+          style={{
+            fontWeight: "bold",
+            marginTop: "12px",
+            color: "#000000",
+            textAlign: "center",
+            marginBottom: "10%",
+          }}
+        >
+          Selected projects
+        </Typography>
+      </div>
+
       <div style={{ width: "100%", display: "flex" }}>
         <div style={{ width: "50%" }}>
           <img

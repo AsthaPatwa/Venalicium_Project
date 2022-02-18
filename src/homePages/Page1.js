@@ -2,6 +2,7 @@ import { CardContent, Paper, Typography } from "@mui/material";
 import React from "react";
 import image14 from "../asset/image14.png";
 import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
+import "../CSS/Home.css";
 
 const card = (
   <React.Fragment>

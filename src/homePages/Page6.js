@@ -4,21 +4,22 @@ import image1 from "../asset/Mask_Group.png";
 import image2 from "../asset/Mask_Group1.png";
 import image3 from "../asset/Mask_Group2.png";
 import image4 from "../asset/Mask_Group3.png";
+import "../CSS/Home.css";
 
 const card = (
   <React.Fragment>
     <CardContent>
-      <Typography
-        variant="h6"
+      <a
+        href="#"
         style={{
           fontWeight: "12px",
-          marginTop: "326px",
+          marginTop: "16px",
           marginLeft: "155px",
           color: "#a058e8",
         }}
       >
-        <u> What we do</u>
-      </Typography>
+        What we do
+      </a>
       <Typography
         variant="h3"
         style={{
@@ -52,11 +53,12 @@ const card = (
     </CardContent>
   </React.Fragment>
 );
+
 const Page6 = () => {
   return (
     <Paper elevation={0} className="explor">
       <div style={{ display: "flex" }}>
-        <div style={{ width: "40%" }}>{card}</div>
+        <div style={{ width: "40%", marginTop: "302px" }}>{card}</div>
         <div style={{ width: "60%" }}>
           <Paper
             elevation={4}
