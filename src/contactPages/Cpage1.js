@@ -20,10 +20,10 @@ const Cpage1 = () => {
             style={{ marginLeft: "570px", marginTop: "61px", width: "495px", height: "400px"}}
           />
         </div>
-        <div style={{marginLeft: "-815px"}}>
+        <div style={{marginLeft: "-815px", marginTop: "120px"}}>
         <h4 >Contact us</h4>
-        <p><h1>Let's Talk</h1>
-        <h1>How can we help?</h1></p></div>
+        <p style={{fontSize:"26px"}}><h1 style={{marginLeft:"-60px",marginTop:"40px"}}>Let's Talk</h1>
+        <h1 style={{marginLeft:"-150px",marginTop:"15px"}}>How can we help?</h1></p></div>
              </div>
     </Paper>
   );
