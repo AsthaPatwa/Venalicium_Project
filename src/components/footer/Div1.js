@@ -11,9 +11,9 @@ const Div1 = () => {
             
                 <div className='form'>
                    <form>
-                    <input type="text" id="text1" placeholder='Email'></input>
-                      <input type="text" id="text2" placeholder='Your Name'></input>
-                      <input type="text" id="text3" placeholder='Company Name'></input>
+                    <input type="text" placeholder='Email'></input>
+                      <input type="text" placeholder='Your Name'></input>
+                      <input type="text" placeholder='Company Name'></input>
                       
                    </form>
 

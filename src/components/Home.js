@@ -10,6 +10,7 @@ import Page9 from "../homePages/Page9";
 import Page8 from "../homePages/Page8";
 import Footer from "../components/Footer"
 
+
 const Home = () => {
   return (
     <div>
@@ -22,7 +23,6 @@ const Home = () => {
       <Page7 />
       <Page8 />
       <Page9 />
-      <Footer />
     </div>
   );
 };

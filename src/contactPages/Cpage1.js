@@ -20,6 +20,7 @@ const Cpage1 = () => {
             style={{ marginLeft: "570px", marginTop: "61px", width: "495px", height: "400px"}}
           />
         </div>
+
         <div style={{marginLeft: "-815px", marginTop: "120px"}}>
         <h4 >Contact us</h4>
         <p style={{fontSize:"26px"}}><h1 style={{marginLeft:"-60px",marginTop:"40px"}}>Let's Talk</h1>

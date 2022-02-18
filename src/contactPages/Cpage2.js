@@ -17,8 +17,8 @@ const Cpage2 = () => {
               marginLeft: "207px",
             }}
           >
-            <h1
-              className="text"
+            <Typography
+              variant="h2"
               style={{
                 fontWeight: "bold",
                 marginTop: "93px",
@@ -26,16 +26,15 @@ const Cpage2 = () => {
             >
               {" "}
               Get in Touch{" "}
-            </h1>
-            <p
-              className="text"
+            </Typography>
+            <Typography
               style={{
                 fontSize: "15px",
               }}
             >
               Before we put our thinking caps on, tell us a few things <br />{" "}
               about yourself
-            </p>
+            </Typography>
             <div
               style={{
                 display: "flex",
@@ -68,13 +67,14 @@ const Cpage2 = () => {
             <br />
             <button
               style={{
+                fontSize: "23px",
                 background: "red",
                 marginTop: "45px",
                 color: "#FFFFFF",
                 borderRadius: "33.5px",
                 textAlign: "center",
-                height: "30px",
-                width: "65px",
+                height: "35px",
+                width: "98px",
                 cursor: "pointer",
                 border: "5px none red ",
               }}
@@ -84,30 +84,29 @@ const Cpage2 = () => {
           </div>
           <div style={{ width: "50%" }}>
             <img src={image} alt="image" />
-            <h3
-              className="text"
+            <Typography
+              variant="h4"
               style={{
-                marginTop: "18px",
+                marginTop: "35px",
                 fontWeight: "bold",
               }}
             >
               {" "}
               Quick calls?
-            </h3>
+            </Typography>
             <div style={{ display: "flex" }}>
               <img alt="image" src={user} style={{ width: "53px" }} />
-              <p
-                className="text"
+              <Typography
                 style={{
-                  fontSize: "18px",
+                  fontSize: "20px",
                   marginLeft: "21px",
+                  marginTop: "15px",
                 }}
               >
                 Emran Khan
-              </p>
+              </Typography>
             </div>
-            <p
-              className="text"
+            <Typography
               style={{
                 marginTop: "12px",
                 fontSize: "12px",
@@ -116,7 +115,7 @@ const Cpage2 = () => {
             >
               Want to get hired r want to hire us? type away <br /> below.
               Schedule a short introductory call
-            </p>
+            </Typography>
             <button
               className="text"
               style={{

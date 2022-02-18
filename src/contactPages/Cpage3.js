@@ -1,4 +1,4 @@
-import { CardContent, Paper } from "@mui/material";
+import { CardContent, Paper, Typography } from "@mui/material";
 import React from "react";
 import image from "../asset/image1.png";
 import images from "../asset/images.png";
@@ -12,12 +12,15 @@ const card1 = (
         alt="image"
         style={{ width: "80px", marginLeft: "39px", marginTop: "40px" }}
       />
-      <h3 className="text" style={{ fontWeight: "bold", textAlign: "center" }}>
+      <Typography
+        variant="h5"
+        style={{ fontWeight: "bold", textAlign: "center" }}
+      >
         Email address
-      </h3>
-      <p className="text" style={{ textAlign: "center" }}>
+      </Typography>
+      <Typography style={{ textAlign: "center" }}>
         rstu@yoursite.com <br /> hrip24@rstu.com
-      </p>
+      </Typography>
     </CardContent>
   </React.Fragment>
 );
@@ -30,18 +33,21 @@ const card2 = (
         alt="image"
         style={{ width: "80px", marginLeft: "39px", marginTop: "40px" }}
       />
-      <h3 className="text" style={{ fontWeight: "bold", textAlign: "center" }}>
+      <Typography
+        variant="h5"
+        style={{ fontWeight: "bold", textAlign: "center" }}
+      >
         office Location
-      </h3>
-      <p className="text" style={{ textAlign: "center", fontSize: "15px" }}>
+      </Typography>
+      <Typography style={{ textAlign: "center", fontSize: "15px" }}>
         62 Arlington St. Suite 100 Boston, CA 01117, USA
-      </p>
+      </Typography>
     </CardContent>
   </React.Fragment>
 );
 const Cpage3 = () => {
   return (
-    <Paper elevation={3}>
+    <Paper elevation={0}>
       <div style={{ display: "flex", height: "500px" }}>
         <Paper
           elevation={4}
