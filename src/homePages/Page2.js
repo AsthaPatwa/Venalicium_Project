@@ -11,7 +11,7 @@ const card1 = (
       <img
         src={image15}
         alt="img"
-        style={{ width: "35%", marginBottom: "5%", marginTop: "7%" }}
+        style={{ width: "45%", marginBottom: "5%", marginTop: "7%" }}
       />
       <Typography
         variant="h3"
@@ -44,7 +44,7 @@ const card2 = (
       <img
         src={image16}
         alt="img"
-        style={{ width: "35%", marginBottom: "5%", marginTop: "7%" }}
+        style={{ width: "45%", marginBottom: "5%", marginTop: "7%" }}
       />
       <Typography
         variant="h3"
@@ -77,7 +77,7 @@ const card3 = (
       <img
         src={image17}
         alt="img"
-        style={{ width: "35%", marginBottom: "5%", marginTop: "7%" }}
+        style={{ width: "45%", marginBottom: "5%", marginTop: "7%" }}
       />
       <Typography
         variant="h3"

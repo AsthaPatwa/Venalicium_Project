@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Div1 from "./footer/Div1";
 import Div2 from "./footer/Div2"
 import Div3 from './footer/Div3';

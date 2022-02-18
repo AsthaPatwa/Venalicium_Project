@@ -1,4 +1,4 @@
-import { Button, CardContent, Paper, Typography } from "@mui/material";
+import { CardContent, Paper, Typography } from "@mui/material";
 import React from "react";
 import image1 from "../asset/Mask_Group.png";
 import image2 from "../asset/Mask_Group1.png";

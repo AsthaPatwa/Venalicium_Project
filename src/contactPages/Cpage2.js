@@ -1,5 +1,4 @@
 import { Paper, Typography } from "@mui/material";
-import { height, typography, width } from "@mui/system";
 import React from "react";
 import "../CSS/Contact.css";
 import user from "../asset/user.png";
@@ -98,7 +97,7 @@ const Cpage2 = () => {
               <img alt="image" src={user} style={{ width: "53px" }} />
               <Typography
                 style={{
-                  fontSize: "20px",
+                  fontSize: "21px",
                   marginLeft: "21px",
                   marginTop: "15px",
                 }}
@@ -122,7 +121,7 @@ const Cpage2 = () => {
                 height: "30px",
                 width: "144px",
                 textAlign: "center",
-                marginTop: "2px",
+                marginTop: "12px",
                 background: "#8c44e3",
                 borderRadius: "6px",
                 color: "#FFFFFF",
