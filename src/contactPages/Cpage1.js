@@ -14,19 +14,17 @@ const Cpage1 = () => {
             style={{ marginLeft: "53px", marginTop: "51px" }}
           />
         </div>
-        <div
-          className="imag"
+        <Typography
           style={{
             marginTop: "122px",
             textAlign: "center",
             color: "#000000",
           }}
         >
-          <p className="text" style={{ fontWeight: "bold" }}>
+          <Typography  style={{ fontWeight: "bold" }}>
             Contact us
-          </p>
-          <h2
-            className="text"
+          </Typography>
+          <Typography
             style={{
               fontWeight: "bold",
               fontSize: "45px",
@@ -34,8 +32,8 @@ const Cpage1 = () => {
             }}
           >
             Let's talk <br /> How can we help?
-          </h2>
-        </div>
+          </Typography>
+        </Typography>
       </div>
     </Paper>
   );

@@ -4,9 +4,9 @@ import image19 from "../asset/image19.png";
 
 const Page4 = () => {
   return (
-    <Paper elevation={0} style={{ height: "650px" }}>
-      <h3
-        className="text"
+    <Paper elevation={0} style={{ height: "690px" }}>
+      <Typography
+        variant="h3"
         style={{
           fontWeight: "bold",
           marginTop: "3px",
@@ -16,12 +16,11 @@ const Page4 = () => {
         }}
       >
         We're a Digital agency
-      </h3>
-      <p
-        className="text"
+      </Typography>
+      <Typography
         style={{
           fontSize: "15px",
-          marginTop: "-18px",
+          marginTop: "18px",
           color: "#000000",
           textAlign: "center",
         }}
@@ -29,7 +28,7 @@ const Page4 = () => {
         We are an Creative agency, based in New York, Vision Every company is
         performing best <br /> online. Mission helping business to find the
         perfect and most successful <br /> strategy, to be online.
-      </p>
+      </Typography>
       <div>
         <div style={{ width: "50%" }}>
           <img alt="image" src={image19} style={{ width: "80%" }} />

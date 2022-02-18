@@ -1,14 +1,14 @@
 import { Button, CardContent, Paper, Typography } from "@mui/material";
 import React from "react";
 import image20 from "../asset/image20.png";
+import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
 
 const card = (
   <React.Fragment>
     <CardContent>
-      <h2
-        className="text"
+      <Typography
+        variant="h3"
         style={{
-          fontSize: "29px",
           fontWeight: "bold",
           marginTop: "15px",
           color: "#000000",
@@ -16,18 +16,18 @@ const card = (
       >
         Conversion Rate <br />
         Optimization
-      </h2>
-      <p
-        className="text"
+      </Typography>
+      <Typography
+        variant="h6"
         style={{
-          marginTop: "17px",
+          marginTop: "25px",
+          fontWeight: "bold",
           color: "grey",
         }}
       >
         Making sure your visitors convert
-      </p>
-      <p
-        className="text"
+      </Typography>
+      <Typography
         variant="h6"
         style={{
           fontSize: "15px",
@@ -38,16 +38,17 @@ const card = (
         Getting customers to your site is only part of thr battle. Once there,
         you have <br /> to make sure they buy, sign up or otherwise engage with
         you brand to drive <br /> revenue. Conversion rate Optimization(CRO)
-      </p>
+      </Typography>
       <button
         style={{
+          fontSize: "18px",
           background: "red",
           marginTop: "22px",
           color: "#FFFFFF",
           borderRadius: "33.5px",
           textAlign: "center",
-          height: "35px",
-          width: "95px",
+          height: "44px",
+          width: "164px",
           border: "2px none red",
           cursor: "pointer",
         }}
@@ -60,9 +61,8 @@ const card = (
 
 const Page5 = () => {
   return (
-    <Paper elevation={0} className="case" style={{ height: "500px" }}>
-      <p
-        className="text"
+    <Paper elevation={0} className="case" style={{ height: "650px" }}>
+      <Typography
         style={{
           fontSize: "15px",
           marginTop: "25px",
@@ -72,9 +72,9 @@ const Page5 = () => {
         }}
       >
         <u>View Case</u>
-      </p>
-      <h1
-        className="text"
+      </Typography>
+      <Typography
+        variant="h3"
         style={{
           fontWeight: "bold",
           marginTop: "12px",
@@ -84,13 +84,21 @@ const Page5 = () => {
         }}
       >
         Selected projects
-      </h1>
+      </Typography>
       <div style={{ width: "100%", display: "flex" }}>
         <div style={{ width: "50%" }}>
           <img
             alt="image"
             src={image20}
             style={{ width: "75%", marginLeft: "90px" }}
+          />
+          <CircleOutlinedIcon
+            style={{
+              color: "#a058e8",
+              marginTop: "59px",
+              marginLeft: "303px",
+              width: "13px",
+            }}
           />
         </div>
         <div style={{ width: "50%" }}> {card}</div>

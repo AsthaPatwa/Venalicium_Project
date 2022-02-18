@@ -1,27 +1,25 @@
 import { Button, CardContent, Paper, Typography } from "@mui/material";
 import React from "react";
-import image15 from "../asset/image15.png";
-import image16 from "../asset/image16.png";
-import image27 from "../asset/image27.png";
-import image29 from "../asset/image29.png";
+import image1 from "../asset/Mask_Group.png";
+import image2 from "../asset/Mask_Group1.png";
+import image3 from "../asset/Mask_Group2.png";
+import image4 from "../asset/Mask_Group3.png";
 
 const card = (
   <React.Fragment>
     <CardContent>
-      <p
-        className="text"
+      <Typography
         variant="h6"
         style={{
           fontWeight: "12px",
           marginTop: "326px",
           marginLeft: "155px",
-          color: "#6141ab",
+          color: "#a058e8",
         }}
       >
         <u> What we do</u>
-      </p>
-      <h2
-        className="text"
+      </Typography>
+      <Typography
         variant="h3"
         style={{
           fontSize: "42px",
@@ -33,17 +31,18 @@ const card = (
       >
         Digital marketing <br /> agency on a <br />
         mission
-      </h2>
+      </Typography>
       <button
         style={{
+          fontSize: "20px",
           background: "red",
           marginTop: "22px",
           marginLeft: "155px",
           color: "#FFFFFF",
           borderRadius: "33.5px",
           textAlign: "center",
-          height: "35px",
-          width: "107px",
+          height: "45px",
+          width: "175px",
           border: "2px none red",
           cursor: "pointer",
         }}
@@ -62,21 +61,39 @@ const Page6 = () => {
           <Paper
             elevation={4}
             style={{
-              height: "230px",
-              width: "241px",
+              height: "240px",
+              width: "251px",
               marginTop: "43px",
               marginLeft: "370px",
             }}
           >
-            <img
-              src={image29}
-              alt="image"
-              style={{ marginTop: "28px", marginLeft: "80px", width: "75px" }}
-            />
-            <h2 className="text" style={{ textAlign: "center" }}>
+            <div
+              style={{
+                height: "90px",
+                width: "90px",
+                marginTop: "28px",
+                marginLeft: "80px",
+                boxShadow: "0 2px 4px rgba(0,0,0,0.3)",
+                borderRadius: "45px",
+              }}
+            >
+              <img
+                src={image4}
+                alt="image"
+                style={{ width: "75px", marginLeft: "8px", marginTop: "8px" }}
+              />
+            </div>
+            <Typography
+              variant="h5"
+              style={{
+                textAlign: "center",
+                fontWeight: "bold",
+                marginTop: "16px",
+              }}
+            >
               {" "}
               Content Strategy & Marketing
-            </h2>
+            </Typography>
           </Paper>
           <Paper
             elevation={4}
@@ -87,15 +104,33 @@ const Page6 = () => {
               marginLeft: "99px",
             }}
           >
-            <img
-              src={image15}
-              alt="image"
-              style={{ marginTop: "28px", marginLeft: "83px", width: "75px" }}
-            />
-            <h2 className="text" style={{ textAlign: "center" }}>
+            <div
+              style={{
+                height: "90px",
+                width: "90px",
+                marginTop: "28px",
+                marginLeft: "80px",
+                boxShadow: "0 2px 4px rgba(0,0,0,0.3)",
+                borderRadius: "45px",
+              }}
+            >
+              <img
+                src={image2}
+                alt="image"
+                style={{ width: "75px", marginLeft: "8px", marginTop: "8px" }}
+              />
+            </div>
+            <Typography
+              variant="h5"
+              style={{
+                textAlign: "center",
+                fontWeight: "bold",
+                marginTop: "16px",
+              }}
+            >
               {" "}
               Search Engine Marketing
-            </h2>
+            </Typography>
           </Paper>
           <Paper
             elevation={4}
@@ -106,15 +141,33 @@ const Page6 = () => {
               marginLeft: "99px",
             }}
           >
-            <img
-              src={image27}
-              alt="image"
-              style={{ marginTop: "28px", marginLeft: "80px", width: "75px" }}
-            />
-            <h2 className="text" style={{ textAlign: "center" }}>
+            <div
+              style={{
+                height: "90px",
+                width: "90px",
+                marginTop: "28px",
+                marginLeft: "80px",
+                boxShadow: "0 2px 4px rgba(0,0,0,0.3)",
+                borderRadius: "45px",
+              }}
+            >
+              <img
+                src={image1}
+                alt="image"
+                style={{ width: "75px", marginLeft: "8px", marginTop: "8px" }}
+              />
+            </div>
+            <Typography
+              variant="h5"
+              style={{
+                textAlign: "center",
+                fontWeight: "bold",
+                marginTop: "16px",
+              }}
+            >
               {" "}
               Reporting Analysis ROI
-            </h2>
+            </Typography>
           </Paper>
           <Paper
             elevation={4}
@@ -125,15 +178,33 @@ const Page6 = () => {
               marginLeft: "370px",
             }}
           >
-            <img
-              src={image16}
-              alt="image"
-              style={{ marginTop: "28px", marginLeft: "80px", width: "75px" }}
-            />
-            <h2 className="text" style={{ textAlign: "center" }}>
+            <div
+              style={{
+                height: "90px",
+                width: "90px",
+                marginTop: "28px",
+                marginLeft: "80px",
+                boxShadow: "0 2px 4px rgba(0,0,0,0.3)",
+                borderRadius: "45px",
+              }}
+            >
+              <img
+                src={image3}
+                alt="image"
+                style={{ width: "75px", marginLeft: "8px", marginTop: "8px" }}
+              />
+            </div>
+            <Typography
+              variant="h5"
+              style={{
+                textAlign: "center",
+                fontWeight: "bold",
+                marginTop: "16px",
+              }}
+            >
               {" "}
               Search Engine Optimization
-            </h2>
+            </Typography>
           </Paper>
         </div>
       </div>

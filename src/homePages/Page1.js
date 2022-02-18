@@ -1,12 +1,12 @@
-import { Button, CardContent, Paper, Typography } from "@mui/material";
+import { CardContent, Paper, Typography } from "@mui/material";
 import React from "react";
 import image14 from "../asset/image14.png";
+import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
 
 const card = (
   <React.Fragment>
     <CardContent>
       <Typography
-        className="text"
         variant="h2"
         style={{
           marginTop: "2px",
@@ -19,7 +19,6 @@ const card = (
         Digital marketing & search agency
       </Typography>
       <Typography
-        className="text"
         variant="h6"
         style={{
           marginTop: "11px",
@@ -30,8 +29,8 @@ const card = (
         How can we help you become your company's marketing hero?
       </Typography>
       <button
-        className="text"
         style={{
+          fontSize: "18px",
           background: "red",
           marginTop: "26px",
           marginLeft: "90px",
@@ -40,22 +39,30 @@ const card = (
           border: "2px none red",
           cursor: "pointer",
           height: "45px",
-          width: "130px",
+          width: "186px",
         }}
       >
         Digital Marketing
       </button>
+      <CircleOutlinedIcon
+        style={{
+          color: "#FFFFFF",
+          marginBottom: "-158px",
+          marginLeft: "-55px",
+          width: "13px",
+        }}
+      />
     </CardContent>
   </React.Fragment>
 );
 const Page1 = () => {
   return (
-    <Paper elevation={0}>
+    <Paper elevation={6}>
       <div
         style={{
-          backgroundColor: "blueviolet",
+          backgroundColor: "rgb(119, 77, 219)",
           display: "flex",
-          height: "572px",
+          height: "525px",
         }}
       >
         <div style={{ width: "60%" }}>{card}</div>

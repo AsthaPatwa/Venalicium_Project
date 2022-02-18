@@ -10,15 +10,30 @@ const card1 = (
       <img
         src={image15}
         alt="img"
-        style={{ width: "25%", marginBottom: "5%", marginTop: "4%" }}
+        style={{ width: "35%", marginBottom: "5%", marginTop: "7%" }}
       />
-      <h2 className="text" style={{ textAlign: "center", fontWeight: "bold" }}>
+      <Typography
+        variant="h3"
+        style={{
+          textAlign: "center",
+          fontWeight: "bold",
+          fontSize: "25px",
+          marginTop: "22px",
+        }}
+      >
         Search Engine Marketing
-      </h2>
-      <p className="text" variant="h6" component="div">
+      </Typography>
+      <Typography
+        variant="h6"
+        style={{
+          textAlign: "center",
+          fontSize: "15px",
+          marginTop: "26px",
+        }}
+      >
         Let us put your website in front of consumers at the moment in time they
         are searching for your products & services.
-      </p>
+      </Typography>
     </CardContent>
   </React.Fragment>
 );
@@ -28,15 +43,30 @@ const card2 = (
       <img
         src={image16}
         alt="img"
-        style={{ width: "25%", marginBottom: "5%" }}
+        style={{ width: "35%", marginBottom: "5%", marginTop: "7%" }}
       />
-      <h2 className="text" style={{ textAlign: "center", fontWeight: "bold" }}>
+      <Typography
+        variant="h3"
+        style={{
+          textAlign: "center",
+          fontWeight: "bold",
+          fontSize: "25px",
+          marginTop: "22px",
+        }}
+      >
         Search Engine Optimization
-      </h2>
-      <p className="text" variant="h6" component="div">
+      </Typography>
+      <Typography
+        variant="h6"
+        style={{
+          textAlign: "center",
+          fontSize: "15px",
+          marginTop: "26px",
+        }}
+      >
         Working together, we will use our knowledge of SEO to bring more leads
         to your business through your website.
-      </p>
+      </Typography>
     </CardContent>
   </React.Fragment>
 );
@@ -46,15 +76,30 @@ const card3 = (
       <img
         src={image17}
         alt="img"
-        style={{ width: "25%", marginBottom: "5%" }}
+        style={{ width: "35%", marginBottom: "5%", marginTop: "7%" }}
       />
-      <h2 className="text" style={{ textAlign: "center", fontWeight: "bold" }}>
+      <Typography
+        variant="h3"
+        style={{
+          textAlign: "center",
+          fontWeight: "bold",
+          fontSize: "25px",
+          marginTop: "22px",
+        }}
+      >
         Reporting Analysis ROI
-      </h2>
-      <p className="text" variant="h6" component="div">
+      </Typography>
+      <Typography
+        variant="h6"
+        style={{
+          textAlign: "center",
+          fontSize: "15px",
+          marginTop: "26px",
+        }}
+      >
         The same way review and analyze your job reports by cost, ROI, customer
         satisfaction and much more
-      </p>
+      </Typography>
     </CardContent>
   </React.Fragment>
 );
@@ -63,7 +108,7 @@ const Page2 = () => {
   return (
     <div
       style={{
-        height: "556px",
+        height: "536px",
         justifyContent: "center",
         textAlign: "center",
       }}
@@ -81,11 +126,11 @@ const Page2 = () => {
             cursor: "pointer",
             height: "370px",
             width: "245px",
-            marginTop: "125px",
+            marginTop: "101px",
           }}
         >
           {active === 1 ? (
-            <Paper elevation={2}> {card1}</Paper>
+            <Paper elevation={3}> {card1}</Paper>
           ) : (
             <Paper elevation={0}> {card1}</Paper>
           )}
@@ -96,11 +141,12 @@ const Page2 = () => {
             cursor: "pointer",
             height: "370px",
             width: "270px",
-            marginTop: "125px",
+            marginTop: "101px",
+            marginLeft: "-2%",
           }}
         >
           {active === 2 ? (
-            <Paper elevation={2}> {card2}</Paper>
+            <Paper elevation={3}> {card2}</Paper>
           ) : (
             <Paper elevation={0}> {card2}</Paper>
           )}
@@ -111,11 +157,12 @@ const Page2 = () => {
             cursor: "pointer",
             height: "370px",
             width: "270px",
-            marginTop: "125px",
+            marginTop: "101px",
+            marginLeft: "-2%",
           }}
         >
           {active === 3 ? (
-            <Paper elevation={2}> {card3}</Paper>
+            <Paper elevation={3}> {card3}</Paper>
           ) : (
             <Paper elevation={0}> {card3}</Paper>
           )}
