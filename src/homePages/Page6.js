@@ -8,8 +8,9 @@ import image4 from "../asset/Mask_Group3.png";
 const card = (
   <React.Fragment>
     <CardContent>
+      <div style={{marginLeft: "-300px"}}>
       <Typography
-        variant="h6"
+        variant="h5"
         style={{
           fontWeight: "12px",
           marginTop: "326px",
@@ -22,7 +23,7 @@ const card = (
       <Typography
         variant="h3"
         style={{
-          fontSize: "42px",
+          fontSize: "62px",
           fontWeight: "bold",
           marginLeft: "155px",
           marginTop: "17px",
@@ -49,15 +50,17 @@ const card = (
       >
         Explor More
       </button>
+      </div>
     </CardContent>
   </React.Fragment>
 );
 const Page6 = () => {
   return (
+    <div style={{marginLeft: "220px"}}>
     <Paper elevation={0} className="explor">
       <div style={{ display: "flex" }}>
-        <div style={{ width: "40%" }}>{card}</div>
-        <div style={{ width: "60%" }}>
+        <div style={{ width: "100%" }}>{card}</div>
+        <div style={{ width: "100%" }}>
           <Paper
             elevation={4}
             style={{
@@ -209,6 +212,7 @@ const Page6 = () => {
         </div>
       </div>
     </Paper>
+    </div>
   );
 };
 

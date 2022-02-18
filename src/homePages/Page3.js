@@ -5,6 +5,7 @@ import image18 from "../asset/image18.png";
 const card = (
   <React.Fragment>
     <CardContent>
+      <div style={{marginTop: "-70px"}}>
       <Typography
         style={{
           marginTop: "30px",
@@ -13,13 +14,13 @@ const card = (
           justifyContent: "center",
         }}
       >
-        <u> About SEO Digital agency </u>
+        <u> <h3>About SEO Digital agency</h3></u>
       </Typography>
       <Typography
-        variant="h3"
+        variant="h2"
         style={{
           fontWeight: "bold",
-          marginTop: "15px",
+          marginTop: "18px",
           marginLeft: "58px",
           color: "#000000",
         }}
@@ -29,7 +30,7 @@ const card = (
       <Typography
         variant="h6"
         style={{
-          marginTop: "12px",
+          marginTop: "13px",
           marginLeft: "58px",
           color: "grey",
         }}
@@ -40,7 +41,7 @@ const card = (
         variant="h6"
         style={{
           fontSize: "15px",
-          marginTop: "18px",
+          marginTop: "26px",
           marginLeft: "58px",
           color: "grey",
         }}
@@ -54,19 +55,20 @@ const card = (
       <button
         style={{
           background: "red",
-          marginTop: "22px",
+          marginTop: "28px",
           marginLeft: "58px",
           color: "#FFFFFF",
           borderRadius: "33.5px",
           border: "2px none red",
-          height: "37px",
+          height: "46px",
           width: "175px",
           cursor: "pointer",
-          fontSize: "21px",
+          fontSize: "22px",
         }}
       >
         Check Website
       </button>
+      </div>
     </CardContent>
   </React.Fragment>
 );
@@ -81,7 +83,7 @@ const Page3 = () => {
         <img
           src={image18}
           alt="image"
-          style={{ width: "85%", marginTop: "75px", marginLeft: "-44px" }}
+          style={{ width: "85%", marginTop: "60px", marginLeft: "-44px" }}
         />
       </div>
     </Paper>

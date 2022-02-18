@@ -6,7 +6,7 @@ import picture from "../asset/pages-banner-8.png";
 const Cpage1 = () => {
   return (
     <Paper elevation={0}>
-      <div style={{ height: "873.33px", display: "flex", width: "100%" }}>
+      <div style={{ height: "643.33px", display: "flex", width: "100%" }}>
         <div style={{display: "flex"}}>
           <img
             src={effect2}

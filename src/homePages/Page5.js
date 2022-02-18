@@ -65,7 +65,7 @@ const Page5 = () => {
       <Typography
         style={{
           fontSize: "15px",
-          marginTop: "25px",
+          marginTop: "28px",
           color: "#6141ab",
           justifyContent: "center",
           textAlign: "center",
@@ -77,7 +77,7 @@ const Page5 = () => {
         variant="h3"
         style={{
           fontWeight: "bold",
-          marginTop: "12px",
+          marginTop: "18px",
           color: "#000000",
           textAlign: "center",
           marginBottom: "10%",
