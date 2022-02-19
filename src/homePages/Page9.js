@@ -30,7 +30,7 @@ const Page9 = () => {
                   style={{
                     width: "50%",
                     padding: "5% 2%",
-                    border: "1px solid rgba(230, 138, 191,0.4)",
+                    border: "1px solid rgba(230, 138, 191,0.2)",
                   }}
                   placeholder="Name *"
                 ></input>
@@ -40,7 +40,7 @@ const Page9 = () => {
                     width: "50%",
                     padding: "5% 2%",
                     marginRight: "-3%",
-                    border: "1px solid  rgba(230, 138, 191,0.4)",
+                    border: "1px solid  rgba(230, 138, 191,0.2)",
                   }}
                   placeholder="Email *"
                 ></input>
@@ -48,9 +48,10 @@ const Page9 = () => {
               <textarea
                 type="text"
                 style={{
+                  height: "107px",
                   width: "100%",
                   padding: "5% 2%",
-                  border: "1px solid rgba(230, 138, 191,0.4)",
+                  border: "1px solid rgba(230, 138, 191,0.2)",
                 }}
                 placeholder="Message *"
               ></textarea>

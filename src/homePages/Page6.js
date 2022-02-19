@@ -61,152 +61,152 @@ const Page6 = () => {
         <div style={{ width: "40%", marginTop: "302px" }}>{card}</div>
         <div style={{ width: "60%" }}>
           <Paper
-            elevation={4}
+            elevation={2}
             style={{
-              height: "240px",
-              width: "251px",
-              marginTop: "43px",
-              marginLeft: "370px",
+              height: "280px",
+              width: "255px",
+              marginTop: "73px",
+              marginLeft: "407px",
             }}
           >
-            <div
-              style={{
-                height: "90px",
-                width: "90px",
-                marginTop: "28px",
-                marginLeft: "80px",
-                boxShadow: "0 2px 4px rgba(0,0,0,0.3)",
-                borderRadius: "45px",
-              }}
-            >
-              <img
-                src={image4}
-                alt="image"
-                style={{ width: "75px", marginLeft: "8px", marginTop: "8px" }}
-              />
+            <div className="paper">
+              <div
+                style={{
+                  height: "90px",
+                  width: "90px",
+                  boxShadow: "3px 3px 16px rgba(0,0,0,0.4)",
+                  borderRadius: "45px",
+                }}
+              >
+                <img
+                  src={image4}
+                  alt="image"
+                  style={{ width: "75px", marginLeft: "8px", marginTop: "8px" }}
+                />
+              </div>
+              <Typography
+                variant="h5"
+                style={{
+                  textAlign: "center",
+                  fontWeight: "bold",
+                  marginTop: "22px",
+                }}
+              >
+                {" "}
+                Content Strategy & Marketing
+              </Typography>
             </div>
-            <Typography
-              variant="h5"
-              style={{
-                textAlign: "center",
-                fontWeight: "bold",
-                marginTop: "16px",
-              }}
-            >
-              {" "}
-              Content Strategy & Marketing
-            </Typography>
           </Paper>
           <Paper
-            elevation={4}
+            elevation={2}
             style={{
-              height: "230px",
-              width: "241px",
-              marginTop: "-103px",
+              height: "280px",
+              width: "255px",
+              marginTop: "-128px",
               marginLeft: "99px",
             }}
           >
-            <div
-              style={{
-                height: "90px",
-                width: "90px",
-                marginTop: "28px",
-                marginLeft: "80px",
-                boxShadow: "0 2px 4px rgba(0,0,0,0.3)",
-                borderRadius: "45px",
-              }}
-            >
-              <img
-                src={image2}
-                alt="image"
-                style={{ width: "75px", marginLeft: "8px", marginTop: "8px" }}
-              />
+            <div className="paper">
+              <div
+                style={{
+                  height: "90px",
+                  width: "90px",
+                  boxShadow: "3px 3px 16px rgba(0,0,0,0.4)",
+                  borderRadius: "45px",
+                }}
+              >
+                <img
+                  src={image2}
+                  alt="image"
+                  style={{ width: "75px", marginLeft: "8px", marginTop: "8px" }}
+                />
+              </div>
+              <Typography
+                variant="h5"
+                style={{
+                  textAlign: "center",
+                  fontWeight: "bold",
+                  marginTop: "16px",
+                }}
+              >
+                {" "}
+                Search Engine Marketing
+              </Typography>
             </div>
-            <Typography
-              variant="h5"
-              style={{
-                textAlign: "center",
-                fontWeight: "bold",
-                marginTop: "16px",
-              }}
-            >
-              {" "}
-              Search Engine Marketing
-            </Typography>
           </Paper>
           <Paper
-            elevation={4}
+            elevation={2}
             style={{
-              height: "230px",
-              width: "241px",
-              marginTop: "26px",
+              height: "280px",
+              width: "255px",
+              marginTop: "42px",
               marginLeft: "99px",
             }}
           >
-            <div
-              style={{
-                height: "90px",
-                width: "90px",
-                marginTop: "28px",
-                marginLeft: "80px",
-                boxShadow: "0 2px 4px rgba(0,0,0,0.3)",
-                borderRadius: "45px",
-              }}
-            >
-              <img
-                src={image1}
-                alt="image"
-                style={{ width: "75px", marginLeft: "8px", marginTop: "8px" }}
-              />
+            <div className="paper">
+              <div
+                style={{
+                  height: "90px",
+                  width: "90px",
+                  boxShadow: "3px 3px 16px rgba(0,0,0,0.4)",
+                  borderRadius: "45px",
+                }}
+              >
+                <img
+                  src={image1}
+                  alt="image"
+                  style={{ width: "75px", marginLeft: "8px", marginTop: "8px" }}
+                />
+              </div>
+              <Typography
+                variant="h5"
+                style={{
+                  textAlign: "center",
+                  fontWeight: "bold",
+                  marginTop: "16px",
+                }}
+              >
+                {" "}
+                Reporting Analysis ROI
+              </Typography>
             </div>
-            <Typography
-              variant="h5"
-              style={{
-                textAlign: "center",
-                fontWeight: "bold",
-                marginTop: "16px",
-              }}
-            >
-              {" "}
-              Reporting Analysis ROI
-            </Typography>
           </Paper>
           <Paper
-            elevation={4}
+            elevation={2}
             style={{
-              height: "230px",
-              width: "241px",
-              marginTop: "-345px",
-              marginLeft: "370px",
+              height: "280px",
+              width: "255px",
+              marginTop: "-418px",
+              marginLeft: "407px",
             }}
           >
-            <div
-              style={{
-                height: "90px",
-                width: "90px",
-                marginTop: "28px",
-                marginLeft: "80px",
-                boxShadow: "0 2px 4px rgba(0,0,0,0.3)",
-                borderRadius: "45px",
-              }}
-            >
-              <img
-                src={image3}
-                alt="image"
-                style={{ width: "75px", marginLeft: "8px", marginTop: "8px" }}
-              />
+            <div className="paper">
+              <div
+                style={{
+                  height: "90px",
+                  width: "90px",
+                  boxShadow: "3px 3px 16px rgba(0,0,0,0.4)",
+                  borderRadius: "45px",
+                }}
+              >
+                <img
+                  src={image3}
+                  alt="image"
+                  style={{ width: "75px", marginLeft: "8px", marginTop: "8px" }}
+                />
+              </div>
+              <Typography
+                variant="h5"
+                style={{
+                  textAlign: "center",
+                  fontWeight: "bold",
+                  marginTop: "16px",
+                }}
+              >
+                {" "}
+                Search Engine Optimization
+              </Typography>
             </div>
-            <Typography
-              variant="h5"
-              style={{
-                textAlign: "center",
-                fontWeight: "bold",
-                marginTop: "16px",
-              }}
-            >
-              {" "}
-              Search Engine Optimization
-            </Typography>
           </Paper>
         </div>
       </div>
