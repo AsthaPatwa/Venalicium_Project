@@ -50,7 +50,7 @@ const card2 = (
 const Cpage3 = () => {
   return (
     <Paper elevation={0}>
-      <div style={{ display: "flex", height: "500px" }}>
+      <div style={{ display: "flex", height: "500px", }}>
         <Paper
           elevation={4}
           style={{

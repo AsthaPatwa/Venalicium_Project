@@ -32,7 +32,7 @@ const Page9 = () => {
             </div>
           </div>
           <div className="forms">
-            <div style={{ display: "flex", margin: "5% 0", gap: "2%" }}>
+            <div style={{ display: "flex", margin: "4% 0", gap: "2%" }}>
               <input
                 type="text"
                 style={{
@@ -58,9 +58,9 @@ const Page9 = () => {
             <textarea
               type="text"
               style={{
-                height: "107px",
+                height: "137px",
                 width: "90%",
-                padding: "5% 2%",
+                padding: "2% 2%",
                 border: "1px solid rgba(230, 138, 191,0.2)",
               }}
               placeholder="Message *"

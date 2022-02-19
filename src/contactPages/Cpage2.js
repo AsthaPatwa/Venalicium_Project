@@ -38,29 +38,40 @@ const Cpage2 = () => {
               style={{
                 display: "flex",
                 marginTop: "25px",
-                opacity: "0.4",
+                margin: "3% 0",
+                gap: "2%",
               }}
             >
               <input
                 type="text"
                 placeholder="Name*"
-                style={{ border: "2px solid pink" }}
+                style={{
+                  backgroundColor: "rgba(222, 155, 207,0.0)",
+                  border: "1px solid rgba(230, 138, 191,0.2)",
+                  width: "30%",
+                  padding: "2% 3%",
+                }}
               />
               <input
                 type="text"
                 placeholder="Email*"
-                style={{ marginLeft: "34px", border: "2px solid pink" }}
+                style={{
+                  padding: "2% 3%",
+                  backgroundColor: "rgba(222, 155, 207,0.0)",
+                  border: "1px solid rgba(230, 138, 191,0.2)",
+                  width: "35%",
+                }}
               />
             </div>
             <textarea
               type="text"
               placeholder="Message*"
               style={{
-                marginTop: "20px",
-                height: "130px",
-                width: "380px",
-                opacity: "0.4",
-                border: "2px solid pink",
+                width: "75%",
+                padding: "2% 2%",
+                height: "137px",
+                backgroundColor: "rgba(222, 155, 207,0.0)",
+                border: "1px solid rgba(230, 138, 191,0.2)",
               }}
             />
             <br />
@@ -68,7 +79,7 @@ const Cpage2 = () => {
               style={{
                 fontSize: "23px",
                 background: "red",
-                marginTop: "45px",
+                marginTop: "67px",
                 color: "#FFFFFF",
                 borderRadius: "33.5px",
                 textAlign: "center",
@@ -86,15 +97,15 @@ const Cpage2 = () => {
             <Typography
               variant="h4"
               style={{
-                marginTop: "35px",
+                marginTop: "26px",
                 fontWeight: "bold",
               }}
             >
               {" "}
               Quick calls?
             </Typography>
-            <div style={{ display: "flex" }}>
-              <img alt="image" src={user} style={{ width: "53px" }} />
+            <div style={{ display: "flex", marginTop: "25px" }}>
+              <img alt="image" src={user} style={{ width: "59px" }} />
               <Typography
                 style={{
                   fontSize: "21px",
@@ -121,7 +132,7 @@ const Cpage2 = () => {
                 height: "30px",
                 width: "144px",
                 textAlign: "center",
-                marginTop: "12px",
+                marginTop: "16px",
                 background: "#8c44e3",
                 borderRadius: "6px",
                 color: "#FFFFFF",
