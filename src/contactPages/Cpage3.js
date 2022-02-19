@@ -5,6 +5,7 @@ import images from "../asset/images.png";
 import map from "../asset/map.png";
 
 const card1 = (
+  
   <React.Fragment>
     <CardContent>
       <img
@@ -31,7 +32,7 @@ const card2 = (
       <img
         src={images}
         alt="image"
-        style={{ width: "80px", marginLeft: "39px", marginTop: "40px" }}
+        style={{ width: "82px", marginLeft: "39px", marginTop: "40px" }}
       />
       <Typography
         variant="h5"
@@ -56,7 +57,7 @@ const Cpage3 = () => {
           style={{
             height: "300px",
             marginTop: "95px",
-            marginLeft: "148px",
+            marginLeft: "248px",
             width: "205px",
           }}
         >
@@ -68,7 +69,7 @@ const Cpage3 = () => {
             height: "300px",
             marginTop: "95px",
             marginLeft: "35px",
-            width: "205px",
+            width: "285px",
           }}
         >
           {card2}

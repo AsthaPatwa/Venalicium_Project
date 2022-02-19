@@ -7,14 +7,14 @@ const Cpage1 = () => {
   return (
     <Paper elevation={0}>
       <div style={{ height: "643.33px", display: "flex", width: "100%" }}>
-        <div style={{ display: "flex" }}>
+        <div style={{display: "flex"}}>
           <img
             src={effect2}
             alt="reload"
             style={{
-              marginLeft: "123px",
+              marginLeft: "133px",
               marginTop: "61px",
-              width: "330px",
+              width: "350px",
               height: "400px",
             }}
           />
@@ -23,9 +23,9 @@ const Cpage1 = () => {
             src={picture}
             alt="reload"
             style={{
-              marginLeft: "370px",
+              marginLeft: "545px",
               marginTop: "61px",
-              width: "470px",
+              width: "498px",
               height: "400px",
             }}
           />
@@ -47,7 +47,7 @@ const Cpage1 = () => {
             <Typography
               variant="h2"
               style={{
-                marginLeft: "-60px",
+                marginLeft: "-95px",
                 marginTop: "40px",
                 fontWeight: "bold",
               }}
@@ -57,8 +57,8 @@ const Cpage1 = () => {
             <Typography
               variant="h2"
               style={{
-                marginLeft: "-150px",
-                marginTop: "15px",
+                marginLeft: "-210px",
+                marginTop: "10px",
                 fontWeight: "bold",
               }}
             >

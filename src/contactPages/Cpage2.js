@@ -37,19 +37,19 @@ const Cpage2 = () => {
             <div
               style={{
                 display: "flex",
-                marginTop: "25px",
+                marginTop: "30px",
                 opacity: "0.4",
               }}
             >
               <input
                 type="text"
                 placeholder="Name*"
-                style={{ border: "2px solid pink" }}
+                style={{ border: "2px solid pink", width: "272px", height: "47px" }}
               />
               <input
                 type="text"
                 placeholder="Email*"
-                style={{ marginLeft: "34px", border: "2px solid pink" }}
+                style={{ marginLeft: "24px", border: "2px solid pink",  width: "272px", height: "47px" }}
               />
             </div>
             <textarea
@@ -57,8 +57,8 @@ const Cpage2 = () => {
               placeholder="Message*"
               style={{
                 marginTop: "20px",
-                height: "130px",
-                width: "380px",
+                height: "170px",
+                width: "572px",
                 opacity: "0.4",
                 border: "2px solid pink",
               }}
@@ -68,12 +68,12 @@ const Cpage2 = () => {
               style={{
                 fontSize: "23px",
                 background: "red",
-                marginTop: "45px",
+                marginTop: "38px",
                 color: "#FFFFFF",
                 borderRadius: "33.5px",
                 textAlign: "center",
-                height: "35px",
-                width: "98px",
+                height: "40px",
+                width: "103px",
                 cursor: "pointer",
                 border: "5px none red ",
               }}
@@ -82,24 +82,26 @@ const Cpage2 = () => {
             </button>
           </div>
           <div style={{ width: "50%" }}>
-            <img src={image} alt="image" />
+            <img src={image} alt="image" style={{marginLeft: "352px", width: "30%", height: "120%"}} />
             <Typography
               variant="h4"
               style={{
-                marginTop: "35px",
+                marginTop: "45px",
                 fontWeight: "bold",
+                
               }}
             >
               {" "}
               Quick calls?
             </Typography>
             <div style={{ display: "flex" }}>
-              <img alt="image" src={user} style={{ width: "53px" }} />
+              <img alt="image" src={user} style={{ width: "68px", marginTop: "32px" }} />
               <Typography
                 style={{
                   fontSize: "21px",
                   marginLeft: "21px",
-                  marginTop: "15px",
+                  marginTop: "50px",
+                  fontWeight: "bold"
                 }}
               >
                 Emran Khan
@@ -107,9 +109,9 @@ const Cpage2 = () => {
             </div>
             <Typography
               style={{
-                marginTop: "12px",
-                fontSize: "12px",
-                color: "grey",
+                marginTop: "20px",
+                fontSize: "13px",
+                color: "black",
               }}
             >
               Want to get hired r want to hire us? type away <br /> below.
@@ -118,10 +120,10 @@ const Cpage2 = () => {
             <button
               className="text"
               style={{
-                height: "30px",
-                width: "144px",
+                height: "38px",
+                width: "176px",
                 textAlign: "center",
-                marginTop: "12px",
+                marginTop: "20px",
                 background: "#8c44e3",
                 borderRadius: "6px",
                 color: "#FFFFFF",
@@ -129,7 +131,7 @@ const Cpage2 = () => {
                 border: "5px none #8c44e3 ",
               }}
             >
-              Contact @ghostriad
+             <h4> Contact @ghostriad</h4>
             </button>
           </div>
         </div>
