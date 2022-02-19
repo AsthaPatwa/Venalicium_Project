@@ -57,7 +57,7 @@ const Cpage3 = () => {
             height: "300px",
             marginTop: "95px",
             marginLeft: "148px",
-            width: "205px",
+            width: "225px",
           }}
         >
           {card1}
@@ -68,7 +68,7 @@ const Cpage3 = () => {
             height: "300px",
             marginTop: "95px",
             marginLeft: "35px",
-            width: "205px",
+            width: "225px",
           }}
         >
           {card2}
