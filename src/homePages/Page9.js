@@ -6,7 +6,7 @@ import shape1 from "../asset/problem-shap.png";
 const Page9 = () => {
   return (
     <>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex", marginLeft: "120px"}}>
         <div>
           <img src={image26} alt="image" />
         </div>
