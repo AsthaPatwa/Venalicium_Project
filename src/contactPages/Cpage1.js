@@ -23,7 +23,7 @@ const Cpage1 = () => {
             src={picture}
             alt="reload"
             style={{
-              marginLeft: "545px",
+              marginLeft: "535px",
               marginTop: "61px",
               width: "498px",
               height: "400px",

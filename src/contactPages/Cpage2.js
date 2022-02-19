@@ -79,12 +79,12 @@ const Cpage2 = () => {
               style={{
                 fontSize: "23px",
                 background: "red",
-                marginTop: "67px",
+                marginTop: "40px",
                 color: "#FFFFFF",
                 borderRadius: "33.5px",
                 textAlign: "center",
-                height: "35px",
-                width: "98px",
+                height: "45px",
+                width: "100px",
                 cursor: "pointer",
                 border: "5px none red ",
               }}
